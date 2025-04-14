@@ -1,8 +1,8 @@
 streamlit 
-langchain==0.3.51
+langchain==0.3.23
 matplotlib==3.10.1
 langchain_community==0.3.21
-langgraph==0.3.27
+langgraph==0.3.29
 langchain_groq==0.3.2 
 langchain_experimental==0.3.4
 langchain_core==0.3.51
