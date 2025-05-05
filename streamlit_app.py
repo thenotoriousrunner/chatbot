@@ -33,7 +33,7 @@ llm = ChatGroq(
 # Create the chat prompt template that includes chat history
 prompt_template = ChatPromptTemplate.from_messages(
     [
-        ("system", "You are a helpful assistant that can use tools."),
+        ("system", "You are a helpful assistant that can use tools to fullfill user request. Whenever an user asks for a graph use data to create an image"),
         MessagesPlaceholder(
             variable_name="chat_history"
         ),  # Add chat history placeholder
