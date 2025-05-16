@@ -182,6 +182,7 @@ if user_input:
                                     fig, len(st.session_state.messages)
                                 )
                                 plt.close(fig)
+                        #check if any heatmap
                 success = True
             except Exception as error:
                 if "Failed to call a function" in str(error):
